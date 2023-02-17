@@ -1,12 +1,13 @@
 package practica2_u4;
 
 public class Prueba {
+	
 	private int id;
 	private String nombre;
 	private String apellido;
-	private int telefono;
+	private int telf;
 
-	public Prueba(int id, String nombre, String apellido, int telefono) {
+	public Prueba(int id, String nombre, String apellido, int telf) {
 		this.id = id;
 		this.nombre = nombre;
 		this.apellido = apellido;
@@ -38,11 +39,11 @@ public class Prueba {
 	}
 
 	public int getTelefono() {
-		return telefono;
+		return telf;
 	}
 
-	public void setTelefono(int telefono) {
-		this.telefono = telefono;
+	public void setTelefono(int telf) {
+		this.telf = telf;
 	}
 
 }
