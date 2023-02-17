@@ -1,14 +1,12 @@
 package practica2_u4;
 
 public class Prueba {
-	
 	private int id;
 	private String nombre;
 	private String apellido;
 	private int telefono;
 
 	public Prueba(int id, String nombre, String apellido, int telefono) {
-		super();
 		this.id = id;
 		this.nombre = nombre;
 		this.apellido = apellido;
